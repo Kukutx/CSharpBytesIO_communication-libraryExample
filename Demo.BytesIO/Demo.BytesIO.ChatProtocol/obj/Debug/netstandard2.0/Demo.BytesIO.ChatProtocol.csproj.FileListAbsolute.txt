@@ -1,0 +1,10 @@
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\bin\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.deps.json
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\bin\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.dll
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\bin\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.pdb
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.csproj.AssemblyReference.cache
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.AssemblyInfoInputs.cache
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.AssemblyInfo.cs
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.csproj.CoreCompileInputs.cache
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.dll
+C:\Users\liuzh\Downloads\Demo.BytesIO\Demo.BytesIO.ChatProtocol\obj\Debug\netstandard2.0\Demo.BytesIO.ChatProtocol.pdb

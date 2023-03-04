@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b5bb5879-2e21-4bda-85bc-ed5af285e172": {
+      "ProjectGuid": "b5bb5879-2e21-4bda-85bc-ed5af285e172",
+      "DisplayName": "Demo.BytesIO",
+      "ColorIndex": 0
+    },
+    "06142719-22b6-4865-8c83-14af5364ea78": {
+      "ProjectGuid": "06142719-22b6-4865-8c83-14af5364ea78",
+      "DisplayName": "Demo.BytesIO.Server",
+      "ColorIndex": 1
+    },
+    "f0c756da-413a-4c12-abb2-7e7b268d0221": {
+      "ProjectGuid": "f0c756da-413a-4c12-abb2-7e7b268d0221",
+      "DisplayName": "Demo.BytesIO.Client",
+      "ColorIndex": 2
+    },
+    "b5a97052-b04f-4f4c-9ab8-4b36e5d90676": {
+      "ProjectGuid": "b5a97052-b04f-4f4c-9ab8-4b36e5d90676",
+      "DisplayName": "Demo.BytesIO.ChatProtocol",
+      "ColorIndex": 3
+    },
+    "32b8c8c7-2b0e-4ddb-9ca0-d65cb5e6e12a": {
+      "ProjectGuid": "32b8c8c7-2b0e-4ddb-9ca0-d65cb5e6e12a",
+      "DisplayName": "Demo.BytesIO.DataUnpacker",
+      "ColorIndex": 4
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    },
+    "e57e8cfd-69c5-40e0-8689-bdd7bfd3cc10": {
+      "ProjectGuid": "e57e8cfd-69c5-40e0-8689-bdd7bfd3cc10",
+      "DisplayName": "Demo.BytesIO.ChatSdk",
+      "ColorIndex": 5
+    },
+    "3b55cd13-e3a0-4969-ad09-be5a458fdeef": {
+      "ProjectGuid": "3b55cd13-e3a0-4969-ad09-be5a458fdeef",
+      "DisplayName": "Demo.BytesIO.TcpSdkServer",
+      "ColorIndex": 6
+    },
+    "b989c257-9606-4c84-b843-c62b43c5f005": {
+      "ProjectGuid": "b989c257-9606-4c84-b843-c62b43c5f005",
+      "DisplayName": "Demo.BytesIO.SyncDemo",
+      "ColorIndex": 7
+    }
+  },
+  "NextColorIndex": 8
+}

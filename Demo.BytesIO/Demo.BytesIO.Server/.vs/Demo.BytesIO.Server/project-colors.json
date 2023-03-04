@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "06142719-22b6-4865-8c83-14af5364ea78": {
+      "ProjectGuid": "06142719-22b6-4865-8c83-14af5364ea78",
+      "DisplayName": "Demo.BytesIO.Server",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

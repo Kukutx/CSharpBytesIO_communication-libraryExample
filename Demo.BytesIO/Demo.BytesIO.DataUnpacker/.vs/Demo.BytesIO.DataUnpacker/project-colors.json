@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "32b8c8c7-2b0e-4ddb-9ca0-d65cb5e6e12a": {
+      "ProjectGuid": "32b8c8c7-2b0e-4ddb-9ca0-d65cb5e6e12a",
+      "DisplayName": "Demo.BytesIO.DataUnpacker",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

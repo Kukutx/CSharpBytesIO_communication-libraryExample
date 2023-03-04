@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>STTech.BytesIO.Serial</name>
+    </assembly>
+    <members>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.PortName">
+            <summary>
+            获取或设置用于通信的端口，包括但不限于所有可用的COM端口。
+            通信端口默认为COM1。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.BaudRate">
+            <summary>
+            获取或设置串口波特率。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.Handshake">
+            <summary>
+            获取或设置用于串口传输数据的握手协议
+            默认为None。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.DtrEnable">
+            <summary>
+            获取或设置一个值，该值在串行通信期间启用数据终端就绪(DTR)信号。
+            使数据终端就绪(DTR);否则,假的。默认为false。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.RtsEnable">
+            <summary>
+            获取或设置一个值，该值指示在串行通信期间是否启用发送请求(RTS)信号。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.DiscardNull">
+            <summary>
+            获取或设置一个值，该值指示在端口和接收缓冲区之间传输时是否忽略空字节。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.NewLine">
+            <summary>
+            获取或设置用于解释对System.IO.Ports.SerialPort.ReadLine和System.IO.Ports.SerialPort.WriteLine(System.String)方法调用结束的值。
+            表示一行结束的值。默认是换行符(c#中的“\n”或VisualBasic中的Microsoft.VisualBasic.Constants.vbLf)。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.ReadTimeout">
+            <summary>
+            获取或设置当读取操作未完成时发生超时之前的毫秒数。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.WriteTimeout">
+            <summary>
+            获取或设置当写操作未完成时发生超时之前的毫秒数。
+            超时发生前的毫秒数。默认为System.IO.Ports.SerialPort.InfiniteTimeout。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.ReceiveBufferSize">
+            <summary>
+            获取或设置输入缓冲区的大小。
+            缓冲区大小以字节为单位,默认值是4096。
+            最大值是一个正整数(2147483647)。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.SendBufferSize">
+            <summary>
+            获取或设置串行端口输出缓冲区的大小。
+            输出缓冲区的大小默认为2048。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.StopBits">
+            <summary>
+            获取或设置每个字节的标准停止位数。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.Parity">
+            <summary>
+            获取或设置奇偶检查协议。
+            默认为System.IO.Ports.Parity.None。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.ReceivedBytesThreshold">
+            <summary>
+            获取或设置在System.IO.Ports.SerialPort.DataReceived事件发生之前内部输入缓冲区中的字节数。
+            触发System.IO.Ports.SerialPort.DataReceived事件之前内部输入缓冲区中的字节数。缺省值是1。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.ParityReplace">
+            <summary>
+            获取或设置发生奇偶校验错误时替换数据流中无效字节的字节。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.ISerialClient.DataBits">
+            <summary>
+            获取或设置每个字节的数据位的标准长度。
+            有效值范围：5~8
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.ISerialClient.DiscardInBuffer">
+            <summary>
+            丢弃来自串行驱动程序的接收缓冲区的数据
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.ISerialClient.DiscardOutBuffer">
+            <summary>
+            丢弃来自串行驱动程序的传输缓冲区的数据
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.InnerClient">
+            <summary>
+            串口通信对象
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.IsConnected">
+            <summary>
+            获取一个指示打开或关闭状态的值
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.Connect(STTech.BytesIO.Core.ConnectArgument)">
+            <summary>
+            建立串口通信
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.Disconnect(STTech.BytesIO.Core.DisconnectArgument)">
+            <summary>
+            关闭串口通信
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.InnerClient_DataReceived(System.Object,System.IO.Ports.SerialDataReceivedEventArgs)">
+            <summary>
+            数据接收回调事件
+            </summary>
+            <param name="sender"></param>
+            <param name="e"></param>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.SendHandler(System.Byte[])">
+            <summary>
+            向串口发送数据
+            </summary>
+            <param name="data"></param>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.GetPortNames">
+            <summary>
+            获取当前计算机的串行端口名称的数组。
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.Handshake">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.DtrEnable">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.DiscardNull">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.DataBits">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.NewLine">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.ReceiveBufferSize">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.ParityReplace">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.PortName">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.ReadTimeout">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.ReceivedBytesThreshold">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.RtsEnable">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.StopBits">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.SendBufferSize">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.WriteTimeout">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.Parity">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="P:STTech.BytesIO.Serial.SerialClient.BaudRate">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.DiscardInBuffer">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+        <member name="M:STTech.BytesIO.Serial.SerialClient.DiscardOutBuffer">
+            <summary>
+            <inheritdoc/>
+            </summary>
+        </member>
+    </members>
+</doc>

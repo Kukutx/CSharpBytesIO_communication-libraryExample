@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApeFree.ApeForms.Forms</name>
+    </assembly>
+    <members>
+        <member name="F:ApeFree.ApeForms.Forms.Dialogs.DialogForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.DialogForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Dialogs.DialogForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notification.Toast.Show(System.String,System.Int32,System.Windows.Forms.Control,System.Windows.Forms.ToastMode)">
+            <summary>
+            显示消息提示
+            </summary>
+            <param name="content">消息内容</param>
+            <param name="delay">消息提示时长</param>
+            <param name="context">当前处于焦点的控件</param>
+        </member>
+        <member name="F:ApeFree.ApeForms.Forms.Notification.ToastForm.components">
+            <summary>
+            Required designer variable.
+            </summary>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notification.ToastForm.Dispose(System.Boolean)">
+            <summary>
+            Clean up any resources being used.
+            </summary>
+            <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        </member>
+        <member name="M:ApeFree.ApeForms.Forms.Notification.ToastForm.InitializeComponent">
+            <summary>
+            Required method for Designer support - do not modify
+            the contents of this method with the code editor.
+            </summary>
+        </member>
+        <member name="T:System.Windows.Forms.ToastMode">
+            <summary>
+            Toast显示模式
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Queue">
+            <summary>
+            队列模式：消息加入队列，顺序显示
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Preemption">
+            <summary>
+            抢占模式：清除队列，下一次弹出时显示
+            </summary>
+        </member>
+        <member name="F:System.Windows.Forms.ToastMode.Reuse">
+            <summary>
+            复用模式：清除队列，使用当前正在显示的Toast
+            </summary>
+        </member>
+        <member name="M:System.Windows.Forms.ToastExtensions.ShowToast(System.Windows.Forms.Control,System.String,System.Windows.Forms.ToastMode,System.Int32)">
+            <summary>
+            弹出显示Toast消息框
+            </summary>
+            <param name="control"></param>
+            <param name="content">内容</param>
+            <param name="mode">显示模式</param>
+            <param name="delay">延时(毫秒)</param>
+        </member>
+    </members>
+</doc>
